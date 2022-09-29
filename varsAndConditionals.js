@@ -60,14 +60,14 @@ if (coinLandsHeads) {
 
 
 // Jaime attacks Jon 5 times
-// for (let i = 0; i < 5; i++) {
-//     jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense)
-//     console.log("Jon's health is now " + jonSnowHealth)
-//     if (jonSnowHealth <= 0) {
-//         console.log("Jon Snow is dead.")
-//         break;
-//     }
-// }
+for (let i = 0; i < 5; i++) {
+    jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense)
+    console.log("Jon's health is now " + jonSnowHealth)
+    if (jonSnowHealth <= 0) {
+        console.log("Jon Snow is dead.")
+        break;
+    }
+}
 
 
 // Post-lab assignment 2
@@ -83,9 +83,9 @@ while (i < 5) {
 
 // Post-lab assignment 1:
 // Write logic in the for loop above that detects if Jon's health gets 0 or less. In which case you will print that Jon is dead and you will stop further loop iterations.
-//Complete
+// Complete
 
 // Post-lab assignment 2:
 // Write the for loop - including the loop you wrote in the first assignment - as a while loop.
 // It should behave exactly the same
-
+// Complete
